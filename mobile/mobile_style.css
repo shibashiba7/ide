@@ -1,0 +1,46 @@
+/* mobile_style.css */
+
+body {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.header-inner {
+    padding: 0 10px;
+}
+
+.main-nav ul {
+    flex-direction: column;
+}
+
+.main-nav li {
+    width: 100%;
+    text-align: center;
+}
+
+.search-container {
+    display: none; /* モバイルでは検索バーを非表示 */
+}
+
+#hero {
+    height: 200px;
+    background-size: cover;
+}
+
+.hero-text h1 {
+    font-size: 24px;
+}
+
+.hero-text p {
+    font-size: 16px;
+}
+
+.news-section, .service-links {
+    width: 100%;
+    padding: 0 10px;
+}
+
+footer {
+    padding: 10px;
+    font-size: 12px;
+}
